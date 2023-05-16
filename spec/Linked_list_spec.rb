@@ -13,6 +13,7 @@ RSpec.describe LinkedList do
         list.append("doop")
         expect(list.head.data).to eq("doop")
         expect(list.head.next_node).to eq(nil)
+        expect(list.head.data).to eq("doop")
     end
 end
 
